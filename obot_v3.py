@@ -65,7 +65,7 @@ obot()
 uid = uuid4()
 
 
-sid = input(f'SID    : ' + B)
+sid = input(f'sisoin id    : ' + B)
 
 
 token = input(f'TOKEN    :')
