@@ -68,7 +68,7 @@ uid = uuid4()
 sid = input(Z+f'sisoin id    : ' + B)
 
 
-token = input(f'TOKEN    :'+Z)
+token = input(B+f'TOKEN    :'+Z)
 
 ID = input(Z+f'ID      :'+B)
 
