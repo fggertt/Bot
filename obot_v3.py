@@ -64,13 +64,13 @@ def obot():
 obot()
 uid = uuid4()
 
-print('hi')
-sid = input(f'sisoin id    : ' + B)
+
+sid = input(Z+f'sisoin id    : ' + B)
 
 
-token = input(f'TOKEN    :')
+token = input(f'TOKEN    :'+Z)
 
-ID = input(f'ID      :'+B)
+ID = input(Z+f'ID      :'+B)
 
 
 
