@@ -64,7 +64,7 @@ def obot():
 obot()
 uid = uuid4()
 
-
+print('hi')
 sid = input(f'sisoin id    : ' + B)
 
 
