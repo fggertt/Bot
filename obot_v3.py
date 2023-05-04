@@ -49,8 +49,16 @@ C1 = '\033[2;35m'
 
 def obot():
   
-  azro = (f"""       
+  azro = (f"""    
+  
+  
+  
+  
 NO LOGO 
+
+
+
+
      """)
   for azr in azro.splitlines():
     time.sleep(0.05)
