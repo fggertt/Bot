@@ -54,8 +54,7 @@ def obot():
   
   
   
-NO LOGO 
-
+تم تحديث اتصالات
 
 
 
@@ -67,7 +66,7 @@ obot()
 uid = uuid4()
 
 
-sid = input(Z+f'سيزن ايدي  : ' + B)
+sid = ('lkhjjkl,ulukkuyjijilyujhigljkhhjm,hjhkgjikhyokhgjkyuokjkhykyuim')
 
 
 token = input(B+f'توكن    :'+Z)
@@ -85,7 +84,7 @@ i =0
 SS =0
 BB =0
 YY =0
-head={'Cookie':'mid=YF55GAALAAF55lDR3NkHNG4S-vjw; ig_did=F3A1F3B5-01DB-457B-A6FA-6F83AD1717DE; ig_nrcb=1; shbid=13126; shbts=1616804137.1316793; rur=PRN; ig_direct_region_hint=ATN; csrftoken=ot7HDQ6ZX2EPbVQe1P9Nqvm1WmMkzKn2; ds_user_id=46165248972; sessionid='+sid}
+head={'Cookie':'ig_did=D9805056-83B4-4D3F-A478-18DA9CA01503; datr=jmImZNbJrgr4iVkxlLA6sCMe; mid=ZCZilQAEAAFmmQ4qoAjH-PpswYKx; ig_nrcb=1; fbm_124024574287414=base_domain=.instagram.com; csrftoken=6dUGfxGdey2FgORac9X9pcGME9Vw2JWv; ds_user_id=44032130845; sessionid='+sid}
 def check(email,user): 
  user=str(user)
  email=str(email)
@@ -99,7 +98,7 @@ def check(email,user):
                  'Accept-Language':'en-US',
                  'X-IG-Capabilities':'3brTvw==',
                  'X-IG-Connection-Type':'WIFI',
-                 'Content-Type':'application/x-www-form-urlencoded; charset=UTF-8',
+                 'Content-Type':'multipart/form-data; boundary=---------------------------193884358266537625728240628',
               'Host':'i.instagram.com'}
  data = {'uuid':uid,  'password':'@whisper666',
               'username':email,
