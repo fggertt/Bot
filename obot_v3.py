@@ -65,12 +65,12 @@ obot()
 uid = uuid4()
 
 
-sid = input(Z+f'sisoin id    : ' + B)
+sid = input(Z+f'سيزن ايدي  : ' + B)
 
 
-token = input(B+f'TOKEN    :'+Z)
+token = input(B+f'توكن    :'+Z)
 
-ID = input(Z+f'ID      :'+B)
+ID = input(Z+f'ايدي      :'+B)
 
 
 
