@@ -53,20 +53,19 @@ def obot():
   
   
   
-  
-تم تحديث اتصالات
+  تم تحديت اتصالات ورجعت سيزن لتقليل الحضر
 
 
 
      """)
   for azr in azro.splitlines():
     time.sleep(0.05)
-    print(azr+F)
+    print(azr+X)
 obot()
 uid = uuid4()
 
 
-sid = ('lkhjjkl,ulukkuyjijilyujhigljkhhjm,hjhkgjikhyokhgjkyuokjkhykyuim')
+sid = input(Z+'سيزن ايدي   :'+B)
 
 
 token = input(B+f'توكن    :'+Z)
@@ -84,7 +83,8 @@ i =0
 SS =0
 BB =0
 YY =0
-head={'Cookie':'ig_did=D9805056-83B4-4D3F-A478-18DA9CA01503; datr=jmImZNbJrgr4iVkxlLA6sCMe; mid=ZCZilQAEAAFmmQ4qoAjH-PpswYKx; ig_nrcb=1; fbm_124024574287414=base_domain=.instagram.com; csrftoken=6dUGfxGdey2FgORac9X9pcGME9Vw2JWv; ds_user_id=44032130845; sessionid='+sid}
+head={'Cookie':'dpr=0.800000011920929; mid=ZFUivQALAAHpI4XTcnM4SM4_bP6m; ig_nrcb=1; ig_did=7934DFC8-E3A7-4FC7-A1B3-CE3564F62EBE; csrftoken=xoDu2ejh9LIhqYaYdSw8MR84MjKCxVtK; datr=syJVZOXOfpBwIMmGdnkxqnDa; sessionid='+sid}
+
 def check(email,user): 
  user=str(user)
  email=str(email)
