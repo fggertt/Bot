@@ -14,14 +14,7 @@ except ImportError:
 uid = uuid4()
 dergham = str(uuid4())
 
-logo = f'  
-
-
-تم تحديث سورس ماقتا 
-
-
-
-'
+logo = '  \033[1;33m \n\n تم تحديت سورس ماقتا \n\n'
 token = input('token')
 ID =  input('ID    :')
 
