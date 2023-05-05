@@ -15,8 +15,7 @@ uid = uuid4()
 dergham = str(uuid4())
 
 logo = '  \033[1;33m \n\n تم تحديت سورس ماقتا \n\n'
-token = input('token')
-ID =  input('ID    :')
+
 
 print(logo)
 ll = 0
@@ -39,7 +38,7 @@ P="\033[1;35m" # بنفسجي
 C="\033[1;36m" # مدري
 W="\033[1;37m" # ابيض
 PN='\033[1;35m' #وردي
-token = input(F+'token'+Z)
+token = input(F+'token   :'+Z)
 ID =  input(Z+'ID    :'+F)
 list = 'qwertyuiopasdfghjklzxcvbnm.1234567890'
 def der():
