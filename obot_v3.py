@@ -18,7 +18,7 @@ logo = '  \033[1;33m \n\n تم تحديت سورس ماقتا \n\n'
 token = input('token')
 ID =  input('ID    :')
 
-
+print(logo)
 ll = 0
 kk = 0
 jj = 0
