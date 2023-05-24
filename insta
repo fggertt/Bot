@@ -75,8 +75,8 @@ requests.get("https://api.telegram.org/bot"+str(token)+"/sendMessage?chat_id="+s
 
 YY =0
 head={'Cookie':'mid=YF55GAALAAF55lDR3NkHNG4S-vjw; ig_did=F3A1F3B5-01DB-457B-A6FA-6F83AD1717DE; ig_nrcb=1; shbid=13126; shbts=1616804137.1316793; rur=PRN; ig_direct_region_hint=ATN; csrftoken=ot7HDQ6ZX2EPbVQe1P9Nqvm1WmMkzKn2; ds_user_id=46165248972; sessionid='+sid}
-def check(email,user): 
- user=str(user)
+def check(email,name): 
+ name=str(name)
  email=str(email)
 
  global YY
