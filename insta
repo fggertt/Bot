@@ -173,13 +173,12 @@ def users():
   num='6789'
   rng=int("".join(random.choice(num)for i in range(1)))
   name=str("".join(random.choice(user)for i in range(rng)))
-  whisper=requests.get(f'https://www.instagram.com/web/search/topsearch/?context=blended&query={name}',headers=head,proxies=prx).json()
+
   mn=0
   try:
    while True:
     mn += 1
-    user=str(whisper['users'][mn]['user']['username'])
-    emai=user
+    emai=name
     email=emai+'@gmail.com'
     if '_' in str(email):
       
