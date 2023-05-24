@@ -172,11 +172,12 @@ def users():
   user='1234567890qwertyuiopasdfghjklzxcvbnm.'
   num='6789'
   rng=int("".join(random.choice(num)for i in range(1)))
-  name=str("".join(random.choice(user)for i in range(rng)))
+  
 
   mn=0
   try:
    while True:
+    name=str("".join(random.choice(user)for i in range(rng)))
     mn += 1
     emai=name
     email=emai+'@gmail.com'
