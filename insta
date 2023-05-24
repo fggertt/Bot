@@ -159,7 +159,7 @@ def yahoo(email,name):
     'firstName':'AbaLahb',
     'lastName':'AbuJahl'
   })
-  res = requests.post(url,data=d,headers=h)
+  res = requests.post(url,data=d,headers=h,proxies=prx)
   if res.json()['status'] == 'SUCCESS':
     print(f'{F} Good Gmail {B} : {F} {email}')
     check(email,user)
@@ -177,6 +177,7 @@ def users():
   mn=0
   try:
    while True:
+    rng=int("".join(random.choice(num)for i in range(1)))
     name=str("".join(random.choice(user)for i in range(rng)))
     mn += 1
     emai=name
