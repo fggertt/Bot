@@ -119,7 +119,7 @@ Hello {Name} NEW HIT ⤋
 ⋘─────━𓆩MOUAD𓆪‏━─────⋙ 
 ⌯ Hit » {YY}
 ⌯ Name » {nam}
-⌯ UserName » {user}
+⌯ UserName » {name}
 ⌯ Email » {email}
 ⌯ ID » {iddd}
 ⌯ Followers » {fol}
@@ -139,7 +139,7 @@ D E V  : @enlinge_bot - @H_0_C """)
    print(f'{X} Bad IG {B} : {X} {email}')
    
 
-def yahoo(email,user):
+def yahoo(email,name):
   global i
   
   
@@ -185,7 +185,7 @@ def users():
       continue
     else :
       
-      yahoo(email,user)
+      yahoo(email,name)
   except IndexError:
    users()
 users()
