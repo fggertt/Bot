@@ -78,7 +78,7 @@ def zzod(email):
 		'''
 	follower=int(followers)
 	
-	if follower > 500:
+	if follower > 0:
          requests.post(f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={ID}&text="+str(tlg))
          print(tlg)
 	else:
