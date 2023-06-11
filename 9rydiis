@@ -37,6 +37,12 @@ try:
  k=input(F+'cod  :'+C)
  ttwid = k.split(':')[0]
  msToken = k.split(':')[1]
+ 
+ passs=k.split(':')[2]
+ if passs == '9oraydis':
+   print('')
+ else:
+   exit('غلط'+Z)
 except:
   exit('غلط'+Z)
 reeg = random.choice(reeg2)
