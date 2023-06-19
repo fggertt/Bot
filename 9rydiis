@@ -1,4 +1,3 @@
-exit('pfff') 
 try:
 	import requests,os,random
 	from user_agent import generate_user_agent
