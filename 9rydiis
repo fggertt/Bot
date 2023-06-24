@@ -19,8 +19,8 @@ except:
 	os.system("clear")
 os.system('clear')
 reeg2 = ["BY","TJ","TM","KZ","GB","DE","ES","FR","UZ","KG","MD","AC","AD","AF","AG","AI","AL","AM","AO","AQ","AS","AU","AW","AX","BA","BB","BD","BF","BG","BI","BJ","BL","BM","BN","BQ","BS","BT","BV","BW","BZ","CA","CC","CD","CF","CG","CI","CK","CM","CN","CS","CU","CV","CW","CX","CY","DK","DM","DR","EA","EE","EH","EN","ET","FJ","FK","FM","FO","GA","GD","GE","GF","GG","GH","GI","GL","GN","GP","GQ","GS","GU","GW","GY","HK","HR","HT","IC","IE","IL","IM","IN","IO","IS","JE","KE","KH","KI","KN","KY","LA","LC","LI","LK","LR","LS","LU","LV","MC","ME","MF","MG","MH","MK","ML","MM","MN","MO","MP","MQ","MS","MT","MU","MV","MW","MZ","NA","NC","NE","NF","NG","NJ","NO","NR","NU","NZ","PF","PG","PK","PM","PN","PR","PW","QS","RE","RW","SB","SC","SH","SI","SJ","SL","SM","SN","SR","ST","SX","SZ","TC","TF","TG","TK","TL","TO","TP","TS","TV","TZ","UG","UM","VA","VC","VG","VI","VU","WF","WS","XA","XB","XK","XX","YJ","YT","ZA","ZG","ZM","ZN","ZW","ZZ","ES","TR","AZ","MA","LB","DZ","ER","TN","SS","BR","MX","TH","ID","MY","VN","PH","SG","KR","JP","EG","SY","PS","JO","IQ","DJ","KM","SO","TD","OM","QA","KW","AE","BH","SA","YE","LY","SD","MR","LT","JM","CH","IR","AN","FI","PY","AR","GR","UY","CR","DO","PE","IT","TT","SV","CZ","BE","CO","TW","HN","EC","SK","NP","RS","NI","SE","GT","CL","NL","RO","HU","VE","AT","PL","PA","BO","GM","PT"]
-twwwwwwwwwwwww = ["1zs93akqqHp8rfPiHdyFNVdhUl9hJctweheV5QVPJLUZ1vAm8bzezzKcRU5OPRhO5U-HPHYXCS2TJy9ysI1D4m3__wqMKoBxCiHVaPB5ay_wVgG0hrwTKkYcA5OOwoeJKhxiETaLnUPtjsBc4Suo","Kb4qxw8qTGF3rKT1XJG84RUKYyVmXJrt55qRFWKoUWhFtpZTpy2kQUxUZbCV6NEmodg2y7c_Jcys_UEyjNzZmo_BcoiccjPEsM90F1_j3ht0MRUCkWUnstvMxGNB94m_ie5clX09SKY1GTNhLTk2","NEJ65hSPBRC2uyV02x1oCqhPDP3F2cbSiSTYupesOzJ7xWIuSyWuv_gHmqLTRYjBxJG6oii0vsvJAgVuSXzKBrTJYAymn8UydVn8KcTApffXqeFx5xwJmBtiswGMb70SZ2okksk2o37d8D_2HhJi","KZ","c0jK3rQFbFSs7rXC54va7IBnLJknMfQZQ3qNOcPP9ui3Sy14M8xEEGAFnlgxP7w208YIoDW0oCHXKe0nkLBKwleKGgGM7WFlgSoekZxsay8WjCwBc_V_7pxGpETPv1LHssUSxcuiRw-m6V-k4tqr","DvqN_0R64dR7sNeSNRMxUkMUN8940BX3RmiRnVGalDCS1hhroXEDJ72smcVa2AQFJvmGSITt8mvlOMg6VPQw8vvE-fHVao79UqQpZydGmXIQobR3HxqEkjKpxZtaFKsZhJWzrkyJ1gws5U7NGL6_","4JqQuRVK8LqxE9d3-WGP8AUzobL6wFqQoRO1oAyFNDM3RvbnuZf0eoRHgpfr2c1NObBEEm0Wyj9EKJheztd-Mip6Sc34vrGI8N8JEZ3imTdKB9t_QNnBo45FscK7PO4_svwxE-PQ-eHx4mY_QNn0","d5YQs8uGbKL3vdhZWVTrZb-QG3aYaM0DBt_HUmsDznM-FB_WdmIs9xKZntb8E-dOAfqPts7HAAEU11pL8Cii-Jf81SF_HDgXp5hIKVD3hIjgXCHn6eQktjchjiadXeTqqexO85R3UtuJbzFCnwo7","ZYrjbwA9iswOTth02T2rPJ0lT2VRJKUX69ALYWQeCzAD1wBo009ZhH9-8vdvpns3d173TO9MTTjAvn3oukbeDwB2-j_0MrSBE-euc6i6Kk59xwpkasiwF8z4DhtU1s9kJOqmgzGYVL3uCwCWqE0J"]
-mssssssss = ["1%7CLA13rNKTtc7w2KKALUQUBtq5XouplKVAZUMFd321poo%7C1687550400%7Ce366320647583363ae2e30a10118e3935f69087d4231e542db440b6b23c47093","1%7CQJFNS5Y375o4d7YkRmK8WfhW2ZFiSoKXrsjM68kGmXM%7C1687550406%7Ca7b0cb77e8768dc8c7d027a0507335e4ad169aea2fa0126bd360e1c51e481e1a","1%7Cbn6mQ5PJWtMkyHhdmNqlL2XeKHFsXFDTcIw5hl9Ooco%7C1687550409%7C9c1217be1e38818e934712ac355538c4602d524f0cf83b5dbb7a65fb5bff5f0e","1%7C-TqdSNNqvglwLdOfaUO6jb4zjD37UF4v543lzHWbg2E%7C1687550410%7Ced24f43b8b92d4c90a5a22d15131f2d5ad06f20991094c08d676b183ee054f3b","1%7CR19AdB85aou99oBbTsKQtK_4iaGrVko5MXqYLSfJlMY%7C1687550412%7C4244f648e15b5952a1ab38fa74ba21f480a01204d1412b658372a856661cc9ca","1%7Ce2KJEm32bqqSz1ehmq6RMNlKU4cPGVU4-jmMX3bjAus%7C1687550413%7Cc68905bf0c05b4628ae9b0c2404b828f33e1c71b85023378b7d184872feb9b96","1%7Cxs_ulb_ewA_uetMS_Gfehbv6c51hxNCOAVplJZU3-FY%7C1687550416%7C75b2c8ec6a137d53afbf07ad253c82e380331eb4a7f9f50450edbf5403879340","1%7CTzBW3JQvJk6obVkgCPySkF8DhUnmDXik7uIWYPONhNs%7C1687550418%7C0ca63e6a0e113211a97836a4ce1eb2bb8f122195d49813cc575f824acaadeacb"]
+twwwwwwwwwwwww = ["1zs93akqqHp8rfPiHdyFNVdhUl9hJctweheV5QVPJLUZ1vAm8bzezzKcRU5OPRhO5U-HPHYXCS2TJy9ysI1D4m3__wqMKoBxCiHVaPB5ay_wVgG0hrwTKkYcA5OOwoeJKhxiETaLnUPtjsBc4Suo","Kb4qxw8qTGF3rKT1XJG84RUKYyVmXJrt55qRFWKoUWhFtpZTpy2kQUxUZbCV6NEmodg2y7c_Jcys_UEyjNzZmo_BcoiccjPEsM90F1_j3ht0MRUCkWUnstvMxGNB94m_ie5clX09SKY1GTNhLTk2","NEJ65hSPBRC2uyV02x1oCqhPDP3F2cbSiSTYupesOzJ7xWIuSyWuv_gHmqLTRYjBxJG6oii0vsvJAgVuSXzKBrTJYAymn8UydVn8KcTApffXqeFx5xwJmBtiswGMb70SZ2okksk2o37d8D_2HhJi","KZ","c0jK3rQFbFSs7rXC54va7IBnLJknMfQZQ3qNOcPP9ui3Sy14M8xEEGAFnlgxP7w208YIoDW0oCHXKe0nkLBKwleKGgGM7WFlgSoekZxsay8WjCwBc_V_7pxGpETPv1LHssUSxcuiRw-m6V-k4tqr","DvqN_0R64dR7sNeSNRMxUkMUN8940BX3RmiRnVGalDCS1hhroXEDJ72smcVa2AQFJvmGSITt8mvlOMg6VPQw8vvE-fHVao79UqQpZydGmXIQobR3HxqEkjKpxZtaFKsZhJWzrkyJ1gws5U7NGL6_","4JqQuRVK8LqxE9d3-WGP8AUzobL6wFqQoRO1oAyFNDM3RvbnuZf0eoRHgpfr2c1NObBEEm0Wyj9EKJheztd-Mip6Sc34vrGI8N8JEZ3imTdKB9t_QNnBo45FscK7PO4_svwxE-PQ-eHx4mY_QNn0","d5YQs8uGbKL3vdhZWVTrZb-QG3aYaM0DBt_HUmsDznM-FB_WdmIs9xKZntb8E-dOAfqPts7HAAEU11pL8Cii-Jf81SF_HDgXp5hIKVD3hIjgXCHn6eQktjchjiadXeTqqexO85R3UtuJbzFCnwo7","ZYrjbwA9iswOTth02T2rPJ0lT2VRJKUX69ALYWQeCzAD1wBo009ZhH9-8vdvpns3d173TO9MTTjAvn3oukbeDwB2-j_0MrSBE-euc6i6Kk59xwpkasiwF8z4DhtU1s9kJOqmgzGYVL3uCwCWqE0J","1%7Cl6Duo8nCIMah-CpRCqS-cS6ISUTLZNphW4jj4F4hFZU%7C1687616031%7C6a7d79954a3b713a83007005b3eb609ab8102022a12fcff34f423422c31a56fd","1%7CM4V0eZPKUhZkBkuvMzn2VhTsLaPj91uHIrifou8dEmM%7C1687616031%7C157d4d1d5e975fd58cf81e7975d233ca688213975b0f47ef6df31abb0d14b67a","1%7Chdf501IAAtPBAFFlwLESLVIjEHtld7dE-4dz3pE4O8g%7C1687616034%7C2e42457d1c1c145095d15dd4c2117c555085d28bb30489b58667d32b7ab91717"]
+mssssssss = ["1%7CLA13rNKTtc7w2KKALUQUBtq5XouplKVAZUMFd321poo%7C1687550400%7Ce366320647583363ae2e30a10118e3935f69087d4231e542db440b6b23c47093","1%7CQJFNS5Y375o4d7YkRmK8WfhW2ZFiSoKXrsjM68kGmXM%7C1687550406%7Ca7b0cb77e8768dc8c7d027a0507335e4ad169aea2fa0126bd360e1c51e481e1a","1%7Cbn6mQ5PJWtMkyHhdmNqlL2XeKHFsXFDTcIw5hl9Ooco%7C1687550409%7C9c1217be1e38818e934712ac355538c4602d524f0cf83b5dbb7a65fb5bff5f0e","1%7C-TqdSNNqvglwLdOfaUO6jb4zjD37UF4v543lzHWbg2E%7C1687550410%7Ced24f43b8b92d4c90a5a22d15131f2d5ad06f20991094c08d676b183ee054f3b","1%7CR19AdB85aou99oBbTsKQtK_4iaGrVko5MXqYLSfJlMY%7C1687550412%7C4244f648e15b5952a1ab38fa74ba21f480a01204d1412b658372a856661cc9ca","1%7Ce2KJEm32bqqSz1ehmq6RMNlKU4cPGVU4-jmMX3bjAus%7C1687550413%7Cc68905bf0c05b4628ae9b0c2404b828f33e1c71b85023378b7d184872feb9b96","1%7Cxs_ulb_ewA_uetMS_Gfehbv6c51hxNCOAVplJZU3-FY%7C1687550416%7C75b2c8ec6a137d53afbf07ad253c82e380331eb4a7f9f50450edbf5403879340","1%7CTzBW3JQvJk6obVkgCPySkF8DhUnmDXik7uIWYPONhNs%7C1687550418%7C0ca63e6a0e113211a97836a4ce1eb2bb8f122195d49813cc575f824acaadeacb","v7mZLAn99lw4rjg1rGXSYcPZ3X4w4q8bW5I9d3ICOPHsW-QXvP6x8Jm2aVxlZiACnE-I4o726dzHzHal2GwB3HQuZBjErRftk0rPmuNgGYFb4gpzVsgADr0zOujvQFAuhCSL3zkdzGVp_jA1Q_41","qa3K1pVeTmR5GuQm9ux-C0q6NvtWkfbsIEI2eTD_tKqJZtrBErLHo6LatAvWYqoTxwjqXnqqG4gn8XpxIGNXnCiHTB31rSMkpoA4A0lxdNm4Q-GtjCRIFLouTzuERkb1sW6N2qJfpSnGYc9q5D8b","akehc5s7geOL9Nqb5g5wnHyCUJDQOCsVFGSpYzrxQHugpZauDsJprCSwYs7kN0oxE-J5oWO7C-XDdKP-y5N4Z7g6CNa187ObODvpLdM8I8uGEV43GwijRdtJScugT4t-QXqdmTent87k_aklndDy"]
 #------------------------------[???????]------------------------------
 Z = '\033[1;31m' #????
 X = '\033[1;33m' #????
@@ -62,7 +62,7 @@ except:
 def zzod(email):
 	username=email.split('@gmail.com')[0]
 	
-	api= (f'https://api.dlyar-dev.tk/info-tiktok.json?user={username}')
+	api= (f'https://el-sherif.shop/Mahmoud/api/tik.php?user={username}')
 	req=requests.get(api).json()
   
 	useer=req['user']
@@ -70,18 +70,18 @@ def zzod(email):
 	followers=req['followers']
 	following=req['following']
 	likes=req['likes']
-	country=req['country']
+	bio=req['bio']
 
 	tlg = f'''
 <<   new tiktok account  >>
 -_-_-_-_-_-_-_-_-_-_-_-_-_-
  name: {namee}
- username : {useer}
+ username : {username}
  Email : {email}
  followers : {followers}
  following : {following}
  likes : {likes}
- country : {country}
+ bio : {bio}
 -_-_-_-_-_-_-_-_-_-_-_-_-_-
  PY : @FDDYY
 		'''
@@ -178,6 +178,7 @@ def zaid16():
 		     	check(email)
 				
 	except:
+		pass
 		zaid16()
 r=threading.Thread(target=zaid16)
 f=threading.Thread(target=zaid16)
