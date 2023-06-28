@@ -187,5 +187,9 @@ def loop():
  file = open(Filename,'r').read().splitlines()
  for DOFLAMINGO in file:
    email=DOFLAMINGO+'@gmail.com'
-   tiktok(email)
+   try:
+    tiktok(email)
+   except:
+     continue
+ exit('done')
 loop() 
