@@ -219,8 +219,11 @@ def loop():
 		     	looop += 1
 		     	email = req1['user_list'][looop]['user_info']['unique_id']
 		     	email = email+'@gmail.com'
-		     	tiktok(email)
-				
+		     	if '_' in email:
+                         continue
+		     	else:
+                         tiktok(email)
+
 	except:
 		pass
 		loop()
