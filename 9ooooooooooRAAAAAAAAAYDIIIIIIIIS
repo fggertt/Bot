@@ -1,4 +1,3 @@
-exit('تم توقيف اداة للاشتراك راسل المطور : @vip_DOFLAMINGI')
 try:
 	import requests,os,random
 	from user_agent import generate_user_agent
