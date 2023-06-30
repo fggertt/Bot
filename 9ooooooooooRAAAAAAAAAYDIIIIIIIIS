@@ -103,6 +103,7 @@ def gmail(email):
 	   fj+=1
 	   os.system('clear')
 	   print(f'''
+ {B} - {Y}HITS : ⦃ {fj} ⦄    
  {B} - {F}Good tiktok : ⦃ {hj} ⦄    
  {B} - {Z}Bad Gmail  : ⦃ {fc} ⦄ 
  {B} - {X}Bad tiktok  : ⦃ {hc} ⦄      
@@ -115,6 +116,7 @@ def gmail(email):
 	    fc+=1
 	    os.system('clear')
 	    print(f'''
+ {B} - {Y}HITS : ⦃ {fj} ⦄    
  {B} - {F}Good tiktok : ⦃ {hj} ⦄    
  {B} - {Z}Bad Gmail  : ⦃ {fc} ⦄ 
  {B} - {X}Bad tiktok  : ⦃ {hc} ⦄      
@@ -151,6 +153,7 @@ def tiktok(email):
  	hj+=1
  	os.system('clear')
  	print(f'''
+ {B} - {Y}HITS : ⦃ {fj} ⦄    
  {B} - {F}Good tiktok : ⦃ {hj} ⦄    
  {B} - {Z}Bad Gmail  : ⦃ {fc} ⦄ 
  {B} - {X}Bad tiktok  : ⦃ {hc} ⦄      
@@ -163,6 +166,7 @@ def tiktok(email):
     os.system('clear')
     hc+=1
     print(f'''
+ {B} - {Y}HITS : ⦃ {fj} ⦄    
  {B} - {F}Good tiktok : ⦃ {hj} ⦄    
  {B} - {Z}Bad Gmail  : ⦃ {fc} ⦄ 
  {B} - {X}Bad tiktok  : ⦃ {hc} ⦄      
@@ -173,6 +177,7 @@ def tiktok(email):
    hc+=1
    os.system('clear')
    print(f'''
+ {B} - {Y}HITS : ⦃ {fj} ⦄    
  {B} - {F}Good tiktok : ⦃ {hj} ⦄    
  {B} - {Z}Bad Gmail  : ⦃ {fc} ⦄ 
  {B} - {X}Bad tiktok  : ⦃ {hc} ⦄      
