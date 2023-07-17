@@ -1,0 +1,22 @@
+import telebot
+
+Token = '5782815158:AAFATat0XchOYBNRsKzPBP3KuJf3SraJ0jg'
+bot = telebot.TeleBot(Token)
+
+@bot.message_handler(commands=["start"])
+def start(message):
+    
+    bot.send_message(message.chat.id,"send name | ارسل اسمڪ")
+
+@bot.message_handler(func=lambda m:True)
+def photo(message):
+    try:
+    	
+    	url = f"https://bcassetcdn.com/asset/logo/ea509e1b-89eb-457b-810b-2f3d42cc6841/logo?v=5&text={message.text}"
+    	
+    	bot.send_photo(message.chat.id,url)
+    except:
+    	bot.send_message(message.chat.id,"تأكد من الاسم!")
+     
+print('البوت شغال حاليا')
+bot.infinity_polling()
